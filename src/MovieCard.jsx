@@ -18,5 +18,4 @@ const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
     </div>
   );
 }
-
 export default MovieCard;

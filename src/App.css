@@ -187,7 +187,83 @@ h1 {
 .movie:hover div:nth-of-type(1) {
   opacity: 1;
 }
+.btn {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to top, #ffd000, #f6e207, #a07b00);
+  color: #000000;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
 
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+.cssbuttons-io-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 70%;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(217, 167, 0) 0%, rgb(248, 241, 53) 100%);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+ }
+ 
+ .cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.8em -0.5em #ffffff98;
+ }
+ 
+ .cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #797b0398;
+ }
+.footer{
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding-bottom: 4.2em;
+  padding-top: .2em;
+  background-color:#a07b00;
+  
+}
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;
